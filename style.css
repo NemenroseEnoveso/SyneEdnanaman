@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Softer, modern font */
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #ffffff, #d3d0d0);
+    background-color: #f7f7f7; /* Lighter gray background for a soft look */
+    color: #444; /* Slightly lighter text color for better readability */
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: transparent; /* Clean, white background */
+    color: #333; /* Dark gray text */
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer, larger shadow for a modern feel */
+    border-bottom: 2px solid #e0e0e0; /* Subtle bottom border for structure */
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 1px; /* Slight spacing for a clean look */
+    font-weight: 500;
+  }
+  
+  header p {
+    font-size: 1.3em;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #777; /* Slightly lighter color for the subheading */
+  }
+  
+  /* Navigation */
+/* Navigation */
+nav {
+    background-color: transparent; /* Transparent background */
+    padding: 15px 0;
+    border: none; /* Ensure no border is present */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Soft shadow for depth */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo img {
+    height: 60px; /* Logo height */
+    margin-left: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 25px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000; /* Black text for links */
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 8px 18px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(95, 167, 191, 0.2); /* Dark background on hover */
+    color: #000; /* Keep text black on hover */
+  }
+  
+  nav ul li a.active {
+    background-color: rgba(95, 167, 191, 0.2); /* Darker background for active link */
+    color: #000000; /* White text for active link */
+    font-weight: 500;
+  }
+  
+  
+  
+  /* Motivational Quote Section */
+  #motivation {
+    text-align: center;
+    padding: 100px 20px; /* Add more spacing for balance */
+    margin-top: 80px; /* Space to prevent overlap with fixed navbar */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #quote {
+    font-size: 1.7em;
+    font-style: italic;
+    color: #444;
+    margin: 20px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+  }
+  
+  #motivation h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #065c6d; /* Dark gray */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: 400;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Subtle zoom effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow on hover */
+  }
+  
+  button:active {
+    background-color: #222;
+    transform: scale(0.98); /* Slight shrink on click */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: transparent;
+    color: #777;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 0.5em;
+    margin-top: 0px;
+    letter-spacing: 0.5px;
+  }
+  
